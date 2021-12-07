@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexiveis</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo á imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar melhor á experiencia 
+        &#x1F43B;
+    </p>
+    <picture>
+        <source media="(max-width:350px )" srcset="imagens/foto-300.jpg" type="image/jpg">
+        <source media="(max-width:450px )" srcset="imagens/foto-400.jpg" type="image/jpg">
+        <source media="(max-width:550px )" srcset="imagens/foto-500.jpg" type="image/jpg">
+        <source media="(max-width:650px )" srcset="imagens/foto-600.jpg" type="image/jpg">
+        <source media="(max-width:750px )" srcset="imagens/foto-700.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="imagens/foto-1000.jpg" type="image/jpg">
+        <img src="imagens/video-games-1136042_1280.jpg" alt="Imagem flexível">
+    </picture>
+
+    <picture>
+        <source media="(max-width:300px )" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:550px )" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="imagem G">
+    </picture>
+
+    
+
+    <img src="imagens/foto-circo.png" alt="">
+</body>
+</html>
